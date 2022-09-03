@@ -38,8 +38,8 @@ local Mod = Window:MakeTab({
 
 
 
-Tab:AddButton({
-	Name = "Button!",
+Mod:AddButton({
+	Name = "Hydroxide",
 	Callback = function()
       		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')
   	end    
