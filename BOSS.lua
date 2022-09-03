@@ -16,7 +16,7 @@ About:AddBind({
 	Default = Enum.KeyCode.P,
 	Hold = false,
 	Callback = function()
-		game.Players.LocalPlayer:Kick("BOSS KICK")
+		game.Players.LocalPlayer:Kick("Moneyz")
 	end    
 })
 
