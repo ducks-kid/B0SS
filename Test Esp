@@ -62,7 +62,7 @@ end
 
 game.Players.PlayersAdded:Connect(function(v)
     local BoxOutline = Drawing.new("Square")
-    BoxOutline.Visible = false
+    BoxOutline.Visible = true
     BoxOutline.Color = Color3.new(0,0,0)
     BoxOutline.Thickness = 3
     BoxOutline.Transparency = 1
