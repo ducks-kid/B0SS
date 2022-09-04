@@ -60,7 +60,7 @@ for i,v in pairs(game.Players:GetChildren()) do
     coroutine.wrap(boxesp)()
 end
 
-game.Players.PlayersAdded:Connect(function(v)
+game:GetService("Players").PlayerAdded:Connect(function(v)
     local BoxOutline = Drawing.new("Square")
     BoxOutline.Visible = true
     BoxOutline.Color = Color3.new(0,0,0)
