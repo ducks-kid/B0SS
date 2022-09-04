@@ -47,4 +47,17 @@ Mod:AddButton({
 
 
 
+Mod:AddButton({
+	Name = "TEGB ESP",
+	Callback = function()
+      		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/ducks-kid/B0SS/main/Test%20Esp"):format(owner, branch, file)), file .. '.lua')
+  	end    
+})
+
+
+
+
+
+
+
 OrionLib:Init()
